@@ -1,0 +1,13 @@
+/* Заголовки */
+h1, h2, h3 {
+    font-family: "Ваш_украинский_шрифт", sans-serif;
+    font-size: 24px;
+    color: #000; /* Цвет текста */
+}
+
+/* Параграфы */
+p {
+    font-family: "Ваш_украинский_шрифт", sans-serif;
+    font-size: 16px;
+    color: #000; /* Цвет текста */
+}
