@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Book Antiqua';
+    src: url('путь-к-шрифту/BookAntiqua-Regular.ttf') format('truetype');
+    /* Укажите путь к файлу .ttf (или другому формату шрифта), якщо у вас є файли шрифту */
+}
+
+/* Застосуйте шрифт до вашого тексту */
+body {
+    font-family: 'Book Antiqua', serif;
+    /* Якщо браузер не підтримує шрифт, буде використано звичайна заміна serif */
+    font-weight: bold;
+    /* Зробити текст жирним */
+    font-size: 18px;
+    /* Задайте розмір тексту (16px - це лише приклад) */
+}
+
+
+/* body {
+    background: #ffed96;
+} */
+
+body {
+    background: linear-gradient(99deg, #ffdd00 2%, #14f7ff 100%);
+}
+
+
+
+.Clock2 {
+    width: 500px;
+    /* Ширина */
+    height: 10px;
+    /* Высота */
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+blockquote.cut {
+    border-top: 4px solid #0311d0;
+    /* Синяя линия сверху */
+    border-bottom: 4px solid #0311d0;
+    ;
+    /* Синяя линия снизу */
+    padding: 10px;
+    /* Добавьте отступ, чтобы текст не сливался с линиями */
+}
+
+
+
+
+.center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* Отступ слева */
+    margin-right: 20px;
+    /* Отступ справа */
+}
+
+
+.row.px-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* Отступ слева */
+    margin-right: 20px;
+    /* Отступ справа */
+}
+
+.p.img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #0311d0;
+    ;
+    color: rgb(255, 255, 2);
+    /* Устанавливаем белый цвет текста для лучшей читаемости */
+    padding-top: 30px;
+    /* Верхний отступ */
+    padding-bottom: 20px;
+    /* Нижний отступ */
+}
+
+.Footer1-text {
+    padding-top: 15px;
+    /* Верхний отступ */
+}
